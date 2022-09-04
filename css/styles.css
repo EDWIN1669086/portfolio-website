@@ -1,0 +1,18 @@
+body 
+{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('/Users/emontalvo/Downloads/sf-mono-cufonfonts-webfont.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'SF Mono Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Light'), url('SFMonoLight.woff') format('woff');
+}
