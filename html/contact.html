@@ -29,19 +29,15 @@
 
 <body>
   <div class="wrapper">
-    <form class="form" action="https://formspree.io/emontalvo@ucla.edu" method="POST">
+    <form class="form" name = "Contact Form" method="POST" data-netlify="true">
       <div class="pageTitle title">Contact Form</div>
       <div class="secondaryTitle title">Please fill out this form to shoot me an email.</div>
       <input type="text" class="name formEntry" placeholder="Name" name="user_name"/>
       <input type="text" class="email formEntry" placeholder="Email" name="user_mail"/>
       <textarea class="message formEntry" placeholder="Message" name="user_message"></textarea>
-      <button class="submit formEntry" onclick="thanks()">Submit</button>
-
-      <input type="hidden" name="_next" value="/thank-you" /> <!--Change value to the thank you page-->
-      <input type="hidden" name="_subject" value="New submission from contact form"/>
+      <button class="submit formEntry">Submit</button>
     </form>
   </div>
-  <script src="app.js"></script>
 </body>
 
 </html>
