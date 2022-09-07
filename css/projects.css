@@ -34,3 +34,110 @@ nav#navigation-bar li a:hover
     text-shadow: 2px 2px black;
     transform: scale(1.1);
 }
+
+
+* {
+    box-sizing: border-box;
+ }
+ h1 {
+    text-align: center;
+ }
+
+.outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin-right: 14px;
+ }
+ .inner-grid img {
+    width: 100%;
+    padding: 0 10px 15px 0;
+ }
+ @media screen and (max-width: 800px) {
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+ }
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+    padding: 20px 40px 0px 40px;
+    margin-bottom: 20px;
+}
+
+.text 
+{
+    min-height: 80%;
+    opacity: 0;
+}
+
+#battleship
+{
+    background-image: url('https://i.postimg.cc/yYdWDxHX/Battleship-Image.webp');
+}
+
+#battleship:hover .text 
+{
+    background-color: rgba(255,255,255,0.6);
+    opacity: 1;
+}
+
+#website
+{
+    background-image: url('https://i.postimg.cc/L4Z2wP2W/webpage-image.png');
+}
+
+#website:hover .text 
+{
+    background-color: rgba(255,255,255,0.6);
+    opacity: 1;
+}
+
+#bunco
+{
+    background-image: url('https://i.postimg.cc/W3hGVvns/dice-for-use.jpg');
+}
+
+#bunco:hover .text 
+{
+    background-color: rgba(255,255,255,0.6);
+    opacity: 1;
+}
+
+#database
+{
+    background-image: url('https://i.postimg.cc/Jnm9Gs91/database.jpg');
+}
+
+#database:hover .text 
+{
+    background-color: rgba(255,255,255,0.6);
+    opacity: 1;
+}
