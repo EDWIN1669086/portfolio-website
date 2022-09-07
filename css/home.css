@@ -1,7 +1,29 @@
+body 
+{
+    margin: 0;
+}
+
 .container 
 {
     margin: 0;
     display: flex;
+}
+
+.display-text 
+{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+
+.paragraph-text 
+{
+    font-family: 'Courier New';
+}
+
+.subdisplay-text 
+{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 300;
 }
 
 .element1
@@ -41,7 +63,6 @@ ul
     padding: 0;
     overflow: auto;
     font-size: 30px;
-    font-family: 'SF Mono Bold';
     text-align: center;
     line-height: 2;
 }
@@ -81,32 +102,24 @@ h1, h2, h3, h4, h5, h6
 {
     margin: 0px 0px 15px 4px;
     font-size: 20px;
-    font-family: 'SF Mono Light';
 }
 
 #edwin
 {
     font-size: 75px;
-    font-family: 'SF Mono Bold';
 }
 
 #caption 
 {
     font-size: 50px;
-    font-family: 'SF Mono Light';
     opacity: 70%;
-}
-
-#description 
-{
-    font-size: 20px;
 }
 
 .description-container 
 {
-    width: 500px;
+    width: 450px;
     margin-left: 3px;
-    font-family: 'Courier New';
+    font-size: 22px;
 }
 
 #contact-me 
@@ -120,7 +133,6 @@ h1, h2, h3, h4, h5, h6
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-family: 'Courier New';
 }
 
 #contact-me:hover
@@ -141,16 +153,14 @@ h1, h2, h3, h4, h5, h6
 {
     margin-top: 20.5%;
     font-size: 60px;
-    opacity: 70%;
 }
 
-#hsf-container 
+.community-container 
 {
     position: relative;
     width: 950px;
     height: auto;
     color:white;
-    font-family: 'SF Mono Light';
     margin-bottom: 50px;
 }
 
@@ -167,7 +177,7 @@ h1, h2, h3, h4, h5, h6
     padding: 20px 4% 0px 4%;
     width: 92%;
     background-color: black;
-    opacity: 70%;
+    opacity: 80%;
     line-height: 1.5;
 }
 
@@ -199,5 +209,4 @@ h1, h2, h3, h4, h5, h6
     background: black;
     color: white;
 }
-  
   

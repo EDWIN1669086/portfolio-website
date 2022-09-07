@@ -1,38 +1,8 @@
-nav#navigation-bar ul
+span 
 {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #78B6DF;
-    
-}
-
-nav#navigation-bar li
-{
-    float: left;
-    font-family: 'SF Mono Bold';
-}
-
-nav#navigation-bar li:last-child 
-{
-    border-right: none;
-}
-
-nav#navigation-bar li a 
-{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: all .2s ease-in-out;
-}
-
-nav#navigation-bar li a:hover 
-{
-    text-shadow: 2px 2px black;
-    transform: scale(1.1);
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 300;
+    color: #558eb3;
 }
 
 .container {
@@ -41,8 +11,6 @@ nav#navigation-bar li a:hover
     margin-left: 20%;
     margin-right: 20%;
 }
-
-
 
 .container__image{
       margin: 20px 30px 0 0;
@@ -58,18 +26,11 @@ nav#navigation-bar li a:hover
 #resume-heading 
 {
     text-align: center;
-    font-family: 'SF Mono Bold';
 }
 
 #education-heading 
 {
-    font-family: 'SF Mono Bold';
     font-size: 30px;
-}
-
-h2 
-{
-    font-family: 'SF Mono Light';
 }
 
 .horizontal-line 
@@ -85,16 +46,12 @@ h2
     margin-bottom: 8px;
 }
 
-#heading-caption 
-{
-    font-family:'Roboto';
-    color: #558eb3;
-}
-
 .bullet-points 
 {
     list-style-position:outside;
     padding-left: 14px;
+    font-family: 'Courier New';
+    line-height: 28px;
 
 }
 
@@ -168,17 +125,13 @@ h2
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: 'SF Mono Light';
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 300;
   }
 
 #wpm-logo 
 {
     max-width: 70%;
-}
-
-#care-list 
-{
-    line-height: 28px;
 }
 
 #cplusplus 

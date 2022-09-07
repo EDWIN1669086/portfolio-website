@@ -3,16 +3,57 @@ body
     margin: 0;
 }
 
-@font-face {
-    font-family: 'SF Mono Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF Mono Bold'), url('/Users/emontalvo/Downloads/sf-mono-cufonfonts-webfont.woff') format('woff');
-    }
+nav#navigation-bar ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #78B6DF;
+    
+}
 
-@font-face {
-    font-family: 'SF Mono Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF Mono Light'), url('SFMonoLight.woff') format('woff');
+nav#navigation-bar li
+{
+    float: left;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+
+nav#navigation-bar li:last-child 
+{
+    border-right: none;
+}
+
+nav#navigation-bar li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+nav#navigation-bar li a:hover 
+{
+    text-shadow: 2px 2px black;
+    transform: scale(1.1);
+}
+
+.display-text 
+{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+
+.paragraph-text 
+{
+    font-family: 'Courier New';
+}
+
+.subdisplay-text 
+{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 300;
 }

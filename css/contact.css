@@ -1,57 +1,7 @@
-
-    nav#navigation-bar ul
-    {
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-        overflow: hidden;
-        background-color: #78B6DF;
-        
-    }
-    
-    nav#navigation-bar li
-    {
-        float: left;
-        font-family: 'SF Mono Bold';
-    }
-    
-    nav#navigation-bar li:last-child 
-    {
-        border-right: none;
-    }
-    
-    nav#navigation-bar li a 
-    {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: all .2s ease-in-out;
-    }
-    
-    nav#navigation-bar li a:hover 
-    {
-        text-shadow: 2px 2px black;
-        transform: scale(1.1);
-    }
-
 #title-Tag-Line {
     font-size: 20px;
   }
-  /* .card-item__bg{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    position: relative;
-    margin: 30px auto;
-    transform: translate(0px, 50px);
-    z-index: 5;
-  } */
-  
+
   /* form animation starts */
   .form {
     background: #fff;
@@ -76,7 +26,6 @@
   
   .title{
     display: block;
-    font-family: 'SF Mono Light';
     margin: 10px auto 5px;
     width: 300px;
   }
@@ -86,7 +35,6 @@
   
   .pageTitle{
     font-size: 2em;
-    font-family: 'SF Mono Bold';
   }
   .secondaryTitle{
     color: grey;
@@ -95,7 +43,6 @@
   .name {
     background-color: #ebebeb;
     color: black;
-    font-family: 'SF Mono Light';
   }
   .name:hover {
     border-bottom: 5px solid #78B6DF;;
@@ -107,7 +54,6 @@
   .email {
     background-color: #ebebeb;
     height: 2em;
-    font-family: 'SF Mono Light';
   }
   
   .email:hover {
@@ -121,7 +67,6 @@
     background-color: #ebebeb;
     overflow: hidden;
     height: 10rem;
-    font-family: 'SF Mono Light';
   }
   
   .message:hover {
@@ -146,7 +91,6 @@
     color: white;
     background-color: #78B6DF;;
     font-size: 20px;
-    font-family: 'SF Mono Light';
   }
   
   .submit:hover {
@@ -158,9 +102,22 @@
   
   @keyframes bounce {
     0% {
-      tranform: translate(0, 4px);
+      transform: translate(0, 4px);
     }
     50% {
       transform: translate(0, 8px);
     }
   } 
+
+ input::placeholder, textarea::placeholder, input[type="text"], textarea[type="text"]
+ {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15px;
+ }
+
+ .submit.formEntry 
+ {
+  font-family: 'Noto Sans Mono', monospace;
+  font-weight: 600;
+  font-size: 22px;
+ }
