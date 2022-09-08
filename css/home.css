@@ -31,11 +31,10 @@ body
     box-sizing: border-box;
     display: flex;
     width: 25%;
-    height: 300vh;  
+    height: 310vh;  
     background-color: #78B6DF;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .element2
@@ -62,10 +61,10 @@ ul
     list-style-type: none;
     margin: 10px 0px 0px 0px;
     padding: 0;
-    overflow: auto;
     font-size: 30px;
     text-align: center;
     line-height: 2;
+    overflow: hidden;
 }
 
 li a 
@@ -209,5 +208,9 @@ h1, h2, h3, h4, h5, h6
 .fa-github {
     background: black;
     color: white;
+}
+
+.element2::-webkit-scrollbar {
+    display: none;
 }
   
