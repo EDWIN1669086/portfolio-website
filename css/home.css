@@ -31,10 +31,11 @@ body
     box-sizing: border-box;
     display: flex;
     width: 25%;
-    height: 310vh;  
     background-color: #78B6DF;
     align-items: center;
     flex-direction: column;
+    position: fixed; 
+    min-height: 100%;
 }
 
 .element2
@@ -47,6 +48,7 @@ body
     padding: 15% 4em;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: 25%;
 }
 
 .nav-contents 
@@ -151,7 +153,7 @@ h1, h2, h3, h4, h5, h6
 
 #foundation-heading 
 {
-    margin-top: 20.5%;
+    margin-top: 15%;
     font-size: 60px;
 }
 
