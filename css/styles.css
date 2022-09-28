@@ -13,11 +13,21 @@ nav#navigation-bar ul
     
 }
 
+.float_right 
+{
+    float:right;
+}
+
+.float_left
+{
+    margin-left: 2%;
+    float:left;
+}
 nav#navigation-bar li
 {
-    float: left;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: bold;
+    margin-right: 2%;
 }
 
 nav#navigation-bar li:last-child 
