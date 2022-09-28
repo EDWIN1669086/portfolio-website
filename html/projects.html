@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Page</title>
+        <title>Projects</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="../css/styles.css"/>
-        <link rel="stylesheet" href="../css/contact.css"/>
+        <link rel="stylesheet" href="../css/projects.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;700&display=swap" rel="stylesheet">
     </head>
     <body>
-      <header>
-        <nav id="navigation-bar">
-            <ul class="nav__links">
-                <li><a class="float_right" href="contact.html">Contact</a></li>
-                <li><a class="float_right" href="resume.html">Resume</a></li>
-                <li><a class="float_right" href="projects.html">Projects</a></li>
-                <li><a class="float_left" href="../home.html">Edwin Montalvo</a></li>
-            </ul>
-        </nav>
-      </header>
-      <div class="wrapper">
-        <form class="form" name = "Contact Form" method="POST" data-netlify="true">
-          <div class="display-text pageTitle title">Contact Form</div>
-          <div class="subdisplay-text secondaryTitle title">Please fill out this form to shoot me an email.</div>
-          <input type="text" class="name formEntry" placeholder="Name" name="user_name"/>
-          <input type="text" class="email formEntry" placeholder="Email" name="user_mail"/>
-          <textarea type="text" class="message formEntry" placeholder="Message" name="user_message"></textarea>
-          <button class="submit formEntry">Submit</button>
-        </form>
-      </div>
+        <header>
+            <nav id="navigation-bar">
+                <ul class="nav__links">
+                    <li><a class="float_right" href="contact.html">Contact</a></li>
+                    <li><a class="float_right" href="resume.html">Resume</a></li>
+                    <li><a class="float_right" href="projects.html">Projects</a></li>
+                    <li><a class="float_left" href="../home.html">Edwin Montalvo</a></li>
+                </ul>
+            </nav>
+          </header>
+        <h1 class="display-text">My Projects</h1>
+        <div class="outer-grid">
+            <div class="inner-grid">
+                <div id="battleship" class="image-container">
+                    <div class="text">
+                        <h2 class="display-text">AI Battleship Game</h2>
+                        <p class="paragraph-text">Implemented the game using object composition delegation and array & vector data structures. Can be played manually or against a computer.</p>
+                    </div>
+                </div>
+                <div id="website" class="image-container">
+                    <div class="text">
+                        <h2 class="display-text">Personal Website</h2>
+                        <p class="paragraph-text">This website was made with traditional HTML/CSS! I drew some of the images using Adobe Illustrator.</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="inner-grid">
+                <div id="bunco" class="image-container">
+                    <div class="text">
+                        <h2 class="display-text">Bunco Game</h2>
+                        <p class="paragraph-text">Implemented the game using object composition delegation and probability algorithms. Can only play against a computer.</p>
+                    </div>
+                </div>
+                <div id="database" class="image-container">
+                    <div class="text">
+                        <h2 class="display-text">Database in Memory</h2>
+                        <p class="paragraph-text">Can find all records in a table for which one particular field equation is a certain value. Implemented using the vector and hash table data structure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
