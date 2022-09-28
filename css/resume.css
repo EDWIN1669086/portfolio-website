@@ -141,5 +141,10 @@ span
 
 #excel
 {
-    max-width: 115%;
+    max-width: 75%;
+}
+
+#lq_logo
+{
+    margin-top: -2%;
 }
